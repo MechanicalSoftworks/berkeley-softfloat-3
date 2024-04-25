@@ -39,8 +39,8 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #ifndef softfloat_approxRecip32_1
 
-extern const uint16_t softfloat_approxRecip_1k0s[16];
-extern const uint16_t softfloat_approxRecip_1k1s[16];
+extern const uint16_t* softfloat_approxRecip_1k0s;
+extern const uint16_t* softfloat_approxRecip_1k1s;
 
 uint32_t softfloat_approxRecip32_1( uint32_t a )
 {
